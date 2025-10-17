@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OBMC Robotics Club Application Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-box">
+      <img src="https://upload.wikimedia.org/wikipedia/en/4/43/OBMC_logo.png" alt="OBMC Logo" class="logo">
+      <h2><a href="#">OBMC Robotics Club<br>Application Form</a></h2>
+      <p>Welcome! Please fill out this form to <strong>apply</strong> for our school’s Robotics Club.</p>
+
+      <form>
+        <label>Full Name:</label>
+        <input type="text" name="fullname" required>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <label>Grade Level:</label>
+        <select name="grade">
+          <option>Grade 7</option>
+          <option>Grade 8</option>
+          <option>Grade 9</option>
+          <option>Grade 10</option>
+        </select>
+
+        <label>Gender:</label>
+        <div class="gender">
+          <label><input type="radio" name="gender" value="male"> Male</label>
+          <label><input type="radio" name="gender" value="female"> Female</label>
+        </div>
+
+        <label>What are your skills?</label>
+        <div class="skills">
+          <label><input type="checkbox" name="skills" value="coding"> Coding</label>
+          <label><input type="checkbox" name="skills" value="design"> Design</label>
+          <label><input type="checkbox" name="skills" value="electronics"> Electronics</label>
+        </div>
+
+        <label>Tell us why you want to join:</label>
+        <textarea name="reason"></textarea>
+
+        <h4>Top Robotics Activities We Offer:</h4>
+        <ul>
+          <li>Line Following Robots</li>
+          <li>Obstacle Avoidance Programming</li>
+          <li>Light Following Robot</li>
+        </ul>
+
+        <h4>Helpful Links:</h4>
+        <ol>
+          <li><a href="https://www.robotics.org/" target="_blank">Robotics.org</a></li>
+          <li><a href="https://www.firstinspires.org/robotics/frc" target="_blank">FIRST Robotics</a></li>
+        </ol>
+
+        <button type="submit">Submit Application</button>
+      </form>
+
+      <footer>© 2025 Robotics Club Application | Created by [Your Name & Section]</footer>
+    </div>
+
+    <div class="image-box">
+      <img src="https://i.pinimg.com/originals/7a/1e/92/7a1e9218d9c259d1b8c61a80f3cfb7e8.jpg" alt="Robot" class="robot-image">
+    </div>
+  </div>
+</body>
+</html>
